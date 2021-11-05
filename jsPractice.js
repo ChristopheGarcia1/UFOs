@@ -19,4 +19,6 @@ printHello = () => "Hello there!";
 
 addition = (a, b) => a + b;
 
-doubleAddition = (c, d) * 2;
+doubleAddition = (c, d)=> addition(c,d) * 2;
+
+console.log(doubleAddition(222,350))
